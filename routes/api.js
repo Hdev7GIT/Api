@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')  
 }
  
-var creator = "@ArifGans"
+var creator = "@ZeusXz"
 var secure = require('ssl-express-www');
 var cors = require('cors');
 var fetch = require('node-fetch');
