@@ -2281,12 +2281,12 @@ router.get('/textpro/porn-hub', async(req, res, next) => {
 
   const apikey = req.query.apikey;
 
-  const text = req.query.White text*;
-  const text2 = req.query.Black text*;
+  const text = req.query.White text;
+  const text2 = req.query.Black text;
   
   if(!apikey) return res.json(loghandler.notparam)
-  if(!text) return res.json(loghandler.notWhite text*)
-  if(!text2) return res.json(loghandler.notBlack text*)
+  if(!text) return res.json(loghandler.notWhite text)
+  if(!text2) return res.json(loghandler.notBlack text)
   
   if(listkey.includes(apikey)){
     zrapi 
